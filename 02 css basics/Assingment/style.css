@@ -1,0 +1,25 @@
+.border{
+    height: 300;
+    width: 300;
+    border: 2px solid black;
+    
+}
+
+#img{
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+
+#text{
+    font-size: 60px;
+}
+
+#Price{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#off{
+    size: 30;
+}

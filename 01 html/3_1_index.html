@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table  </title>
+    <style>
+        table,td,tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>my first table </caption>
+        <tr>
+            <td>month</td>
+            <td row>Amount</td>
+        </tr>
+        <tr>
+            <td>Jan</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Feb</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>march</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>total</td>
+            <td>600</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <td rowspan="2">name</td>
+            <td>class</td>
+            <td>roll</td>
+        </tr>
+        <tr>
+            <td>suraj</td>
+            <td>kumar</td>
+        </tr>
+        <tr>
+            <td>prity</td>
+            <td>khushi</td>
+            <td>ruchi</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table>
+        <tr>
+            <td colspan="4" rowspan="1">Suraj</td>
+        </tr>
+
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+        </tr>
+
+        <tr>
+            
+            <td>E</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            
+        </tr>
+
+        <tr>
+            <td>i</td>
+            <td>j</td>
+            <td>k</td>
+            <td>l</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" rowspan="2">m</td>
+            <td>m</td>
+            <td>n</td>
+        </tr>
+        <tr>
+            <td>o</td>
+            <td>p</td>
+        </tr>
+        <tr>
+            <td>q</td>
+            <td>r</td>
+            <td>s</td>
+            <td>t</td>
+        </tr>
+    </table>
+
+
+    <!-- new table -->
+    <br>
+    <table>
+        <colgroup>
+            <col span="3" style="background-color: aliceblue">
+            <col span="1" style="visibility: collapse;">
+            
+        </colgroup>
+        <tr>
+            <td rowspan="2"> State of Health </td>
+            <td colspan="2">Fasting Value</td>
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hr after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>

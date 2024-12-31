@@ -1,0 +1,30 @@
+/* p{
+    color: red;
+    font-size: large;
+} */
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+
+.small{
+    font-size: 10px;
+}
+
+
+#button{
+    color: blueviolet;
+}
+
+#button:hover{
+    color: black;
+}
+
+#buyCourse:hover{
+    color: pink;
+}
