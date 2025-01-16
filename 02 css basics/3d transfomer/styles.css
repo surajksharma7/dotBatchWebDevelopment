@@ -1,0 +1,7 @@
+div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: radial-gradient(circle, red 10%, yellow 40%, green 70%, blue 100%);
+    background: conic-gradient(from 0.25turn at 50% 30%, #f69d3c, 10deg, #3f87a6, 350deg, #ebf8e1);
+}

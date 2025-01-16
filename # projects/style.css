@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow:0px 3px 5px 0px rgba(0,0,0,0/34);
+    --hover-shadow:0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow:0px 0px 10px 0px rgba(0,0,0,0.100);
+    --light-blac:#141c3a;
+}
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container{
+    margin: 100px auto ;
+    width: 28%;
+}
+
+form{
+    display: flex;
+    flex-direction: columns;
+    margin: 30px 0;
+}
+
+form label{
+    margin: 5px 0;
+
+}
+
+
+form input[type="text"], input[type="password"]{
+    height: 55px;
+    margin: 5px 0;
+    border: 0.5px solid #b8b;
+    border-radius:3px ;
+    padding: 1 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form a{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+form input[type="submit"]{
+    height: 50px;
+    background:var(--main-color);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+
+form input[type="submit"]:hover{
+    box-shadow: var(--hover-shadow);
+    transform: translate(-3px);
+
+
+
+}
+
+.foote h3{
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.footer .image{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.footer .images .img{
+    width: 15%;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+
+.footer .images .img:hover{
+    box-shadow: var(--hover-shadow);
+    cursor: pointer;
+}
+
+footer a{
+    
+}

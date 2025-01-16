@@ -1,0 +1,38 @@
+p{
+    position: static;
+}
+
+h1{
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: aqua;
+    display: inline-block;    
+}
+
+#box3{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+
+}
+
+/* #box1{
+    position: fixed;
+} */
+
+.wrapper{
+    height: 1000px;
+    width: 100vw;
+    background-color: yellow;
+}
+
+#box4{
+    position: sticky;
+    top: 0px ;
+    
+}
